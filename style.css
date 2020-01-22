@@ -265,7 +265,7 @@ footer li {
   font-size: 110%;
   position: fixed;
   background-color: #505055;
-  bottom: none;
+  bottom: 0;
   right: 50px;
   border: 0;
 }
