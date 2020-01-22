@@ -2,12 +2,13 @@
 
 1 css reset
 2 header
+3 body
+4 form
+5 footer
 
 */
 
 /* CSS Reset code  */
-
-
 
 /* Box sizing rules */
 *,
@@ -23,7 +24,7 @@ ol[class] {
 }
 
 /* Remove default margin */
-body,
+
 h1,
 h2,
 h3,
@@ -41,23 +42,7 @@ dd {
 }
 
 /* Set core body defaults */
-body {
-  min-height: 100vh;
-  scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
-}
 
-/* Remove list styles on ul, ol elements with a class attribute */
-ul[class],
-ol[class] {
-  list-style: none;
-}
-
-/* A elements that don't have a class get default styles */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-}
 
 /* Make images easier to work with */
 img {
@@ -66,7 +51,6 @@ img {
 }
 
 /* ul li reset  */
-
 
 ul {
   list-style: none;
@@ -87,12 +71,7 @@ a {
   color: #0077c5;
 }
 
-
-
-
 /* CSS Reset code end  */
-
-
 
 button {
   background-color: #0077c5;
@@ -102,20 +81,24 @@ button {
   padding: 10px 20px;
   font-size: 90%;
 }
+
 button span {
-  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: 200;
 }
 
-
 body {
+  margin: 0;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
   background-color: #eceef1;
-  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
   color: #505055;
 }
 
-/* header  */
-
+/* header */
 
 header {
   background-color: transparent;
@@ -139,7 +122,6 @@ header {
   font-size: 12px;
 }
 
-
 .header-btn {
   flex: 3;
 }
@@ -147,72 +129,87 @@ header {
 /* header end  */
 
 /* form section */
+
 main {
   width: 380px;
   margin: auto;
 }
+
 .form-herder {
   display: grid;
   height: 100px;
 }
+
 .logo-cont {
   padding: 0 20px;
   margin: auto;
 }
+
 .images {
   display: flex;
   justify-content: space-between;
   padding: 10px 50px;
 }
+
 .images a {
   display: flex;
   color: #8d9096;
 }
+
 .images a img {
   width: 23px;
   height: 23px;
   margin-right: 5px;
 }
+
 .form-box {
   background-color: #fff;
   padding: 20px 0 0 0;
   border: 1px solid #c7c7c7;
   border-radius: 2px;
 }
+
 .form-info {
   text-align: center;
 }
+
 .form-info h2 {
   font-weight: 200;
   margin: 10px 0;
 }
+
 .form-info p {
-  margin: 10px 20PX;
+  margin: 10px 20px;
   font-size: 14px;
 }
+
 .input-box {
   height: 95px;
   display: grid;
 }
+
 .input-box input {
   border: 1px solid #c7c7c7;
   border-radius: 2px;
 }
+
 .additional-info {
   height: 20px;
   margin: 5px 0;
   font-size: 11px;
   line-height: 1.2em;
 }
+
 form button {
   width: 100%;
   font-size: 100%;
-  border: 0px;
+  border: none;
 }
-.pass-cont i {
-  position: absolute;
-  right: 348px;
-  top: 516px;
+
+form i {
+  position: relative;
+  right: -322px;
+  top: -98px;
   color: #c7c7c7;
 }
 
@@ -250,6 +247,7 @@ footer {
 footer a {
   color: #505055;
 }
+
 footer a:hover {
   text-decoration: underline;
 }
@@ -259,15 +257,17 @@ footer ul {
   margin: auto;
   justify-content: center;
 }
+
 footer li {
   margin: 0 5px;
 }
+
 .Privacy-btn {
   padding: 10px 15px;
   font-size: 110%;
   position: fixed;
   background-color: #505055;
-  bottom: 0px;
+  bottom: none;
   right: 50px;
   border: 0;
 }
