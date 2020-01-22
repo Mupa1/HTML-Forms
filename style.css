@@ -1,4 +1,4 @@
-/* table of content:  
+/* table of content:
 
 1 css reset
 2 header
@@ -8,7 +8,7 @@
 
 */
 
-/* CSS Reset code  */
+/* CSS Reset code */
 
 /* Box sizing rules */
 *,
@@ -41,16 +41,13 @@ dd {
   margin: 0;
 }
 
-/* Set core body defaults */
-
-
 /* Make images easier to work with */
 img {
   max-width: 100%;
   display: block;
 }
 
-/* ul li reset  */
+/* ul li reset */
 
 ul {
   list-style: none;
@@ -71,7 +68,7 @@ a {
   color: #0077c5;
 }
 
-/* CSS Reset code end  */
+/* CSS Reset code end */
 
 button {
   background-color: #0077c5;
@@ -118,6 +115,7 @@ header {
   display: grid;
   flex: 5;
 }
+
 .header-text p {
   font-size: 12px;
 }
@@ -126,7 +124,7 @@ header {
   flex: 3;
 }
 
-/* header end  */
+/* header end */
 
 /* form section */
 
@@ -234,7 +232,7 @@ form i {
 
 /* form section end */
 
-/* footer  */
+/* footer */
 
 footer {
   width: 700px;
@@ -244,7 +242,7 @@ footer {
   font-size: 80%;
 }
 
-footer a {
+.footers-a {
   color: #505055;
 }
 
