@@ -108,14 +108,13 @@ button{
 button span {
     font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-weight: 200;
-
 }
 
 
 body {
     background-color: #eceef1;
     font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
-    
+    color: #505055;
 }
 
 /* header  */
@@ -147,4 +146,38 @@ header {
 
 .header-btn {
     flex: 3;
+}
+
+/* form section */
+main {
+    width: 380px;
+    margin: auto;
+}
+.form-herder {
+    display: grid;
+    height: 100px;
+}
+.logo-cont {
+    padding: 0 20px;
+    margin: auto;
+}
+.images {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+.images a {
+    display: flex;
+    color: #8d9096;
+}
+.images a img {
+    width: 23px;
+    height: 23px;
+    margin-right: 5px;
+}
+.form {
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #c7c7c7;
+    border-radius: 2px;
 }
