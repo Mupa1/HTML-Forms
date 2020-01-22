@@ -235,11 +235,15 @@ form i {
 /* footer */
 
 footer {
-  width: 700px;
   margin: auto;
   padding: 20px 0;
   text-align: center;
   font-size: 80%;
+}
+
+footer p {
+  max-width: 700px;
+  margin: auto;
 }
 
 .footers-a {
