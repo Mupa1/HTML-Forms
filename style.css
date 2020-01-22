@@ -1,0 +1,283 @@
+/* table of content:
+
+1 css reset
+2 header
+3 body
+4 form
+5 footer
+
+*/
+
+/* CSS Reset code */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ul li reset */
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* CSS Reset code end */
+
+button {
+  background-color: #0077c5;
+  border: 1px solid #222;
+  border-radius: 4px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 90%;
+}
+
+button span {
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 200;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-color: #eceef1;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #505055;
+}
+
+/* header */
+
+header {
+  background-color: transparent;
+  width: 100%;
+  height: 60px;
+  padding: 10px 30px;
+}
+
+.header-content {
+  width: 300px;
+  display: flex;
+  float: right;
+  height: 100%;
+}
+
+.header-text {
+  display: grid;
+  flex: 5;
+}
+
+.header-text p {
+  font-size: 12px;
+}
+
+.header-btn {
+  flex: 3;
+}
+
+/* header end */
+
+/* form section */
+
+main {
+  width: 380px;
+  margin: auto;
+}
+
+.form-herder {
+  display: grid;
+  height: 100px;
+}
+
+.logo-cont {
+  padding: 0 20px;
+  margin: auto;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+
+.images a {
+  display: flex;
+  color: #8d9096;
+}
+
+.images a img {
+  width: 23px;
+  height: 23px;
+  margin-right: 5px;
+}
+
+.form-box {
+  background-color: #fff;
+  padding: 20px 0 0 0;
+  border: 1px solid #c7c7c7;
+  border-radius: 2px;
+}
+
+.form-info {
+  text-align: center;
+}
+
+.form-info h2 {
+  font-weight: 200;
+  margin: 10px 0;
+}
+
+.form-info p {
+  margin: 10px 20px;
+  font-size: 14px;
+}
+
+.input-box {
+  height: 95px;
+  display: grid;
+}
+
+.input-box input {
+  border: 1px solid #c7c7c7;
+  border-radius: 2px;
+}
+
+.additional-info {
+  height: 20px;
+  margin: 5px 0;
+  font-size: 11px;
+  line-height: 1.2em;
+}
+
+form button {
+  width: 100%;
+  font-size: 100%;
+  border: none;
+}
+
+form i {
+  position: relative;
+  right: -322px;
+  top: -98px;
+  color: #c7c7c7;
+}
+
+.privacy-text {
+  font-size: 81%;
+  text-align: center;
+  font-style: italic;
+  margin: 40px 0;
+}
+
+.captcha-text {
+  background-color: #eceef1;
+  color: #8d9096;
+  font-size: 64%;
+  text-align: center;
+  padding: 20px;
+}
+
+.form-padding {
+  padding: 0 30px;
+}
+
+/* form section end */
+
+/* footer */
+
+footer {
+  margin: auto;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 80%;
+}
+
+.footer-text {
+  max-width: 700px;
+  margin: auto;
+}
+
+.footers-a {
+  color: #505055;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer ul {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+footer li {
+  margin: 0 5px;
+}
+
+.Privacy-btn {
+  padding: 10px 15px;
+  font-size: 110%;
+  position: fixed;
+  background-color: #505055;
+  bottom: 0;
+  right: 50px;
+  border: 0;
+}
+
+/* footer end  */
