@@ -65,9 +65,14 @@ img {
   display: block;
 }
 
-/* Natural flow and rhythm in articles by default */
-article > * + * {
-  margin-top: 1em;
+/* ul li reset  */
+
+
+ul
+{
+list-style: none;
+padding: 0;
+margin: 0;
 }
 
 /* Inherit fonts for inputs and buttons */
@@ -78,15 +83,6 @@ select {
   font: inherit;
 }
 
-/* Remove all animations and transitions for people that prefer not to see them */
-@media (prefers-reduced-motion: reduce) {
-  * {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}
 a {
     text-decoration: none;
 }
@@ -148,6 +144,8 @@ header {
     flex: 3;
 }
 
+/* header end  */
+
 /* form section */
 main {
     width: 380px;
@@ -194,6 +192,10 @@ main {
     height: 95px;
     display: grid;
 }
+.input-box input {
+    border: 1px solid #c7c7c7;
+    border-radius: 2px;
+}
 .additional-info {
     height: 20px;
     margin: 5px 0;
@@ -205,8 +207,40 @@ form button {
     font-size: 100%;
 }
 .pass-cont i {
-    position: relative;
-    left: 293px;
-    top: -22px;
+    position: absolute;
+    left: 630px;
+    top: 496px;
     color: #c7c7c7;
+}
+
+.privacy-text {
+    font-size: 81%;
+    text-align: center;
+    font-style: italic;
+    margin: 40px 0;
+}
+
+.captcha-text {
+    background-color: #eceef1;
+}
+/* form section end */
+
+/* footer  */
+
+footer {
+    width: 700px;
+    margin: auto;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 80%;
+}
+
+footer ul {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+footer li {
+    margin: 0 5px;
+
 }
