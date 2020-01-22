@@ -13,7 +13,7 @@ This project consists of building an HTML document that matches the appearance o
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Mupa1/HTML-Forms/edf0e3ff23381d755b1309ca266710336a511ce5/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Mupa1/HTML-Forms/3990be16c6b7edd6bbeeb77d0b9f509297f6e47d/index.html)
 
 
 ## Authors
@@ -25,9 +25,9 @@ This project consists of building an HTML document that matches the appearance o
 
 👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/Mupa1)
-- Twitter: [@twitterhandle](https://twitter.com/mupa_mmbetsa)
-- Linkedin: [linkedin](https://www.linkedin.com/in/mupa-nzaphila-644788103/)
+- Github: [@Mupa1](https://github.com/Mupa1)
+- Twitter: [@mupa_mmbetsa](https://twitter.com/mupa_mmbetsa)
+- Linkedin: [mupa-nzaphila-644788103)](https://www.linkedin.com/in/mupa-nzaphila-644788103/)
 
 ## 🤝 Contributing
 
