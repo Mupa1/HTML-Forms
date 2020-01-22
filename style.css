@@ -180,4 +180,33 @@ main {
     padding: 30px;
     border: 1px solid #c7c7c7;
     border-radius: 2px;
+}   
+.form-info {
+    text-align: center;
+}
+.form-info h2 {
+    font-weight: 200;
+}
+.form-info p {
+    font-size: 14px;
+}
+.input-box {
+    height: 95px;
+    display: grid;
+}
+.additional-info {
+    height: 20px;
+    margin: 5px 0;
+    font-size: 11px;
+    line-height: 1.2em;
+}
+form button {
+    width: 100%;
+    font-size: 100%;
+}
+.pass-cont i {
+    position: relative;
+    left: 293px;
+    top: -22px;
+    color: #c7c7c7;
 }

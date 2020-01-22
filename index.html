@@ -35,24 +35,27 @@
 
         <div class="form">
             <div class="form-info">
-                <h1>Create an Intuit account</h1>
+                <h2>Create an Intuit account</h2>
                 <p>One account for everything Intuit, including Mint.</p>
-                <a href="#">Learn more</a>
+                <p><a href="#">Learn more</a></p>
             </div>
             <form >
-                <div class="email-cont">
-                    <label for="email">email adddress</label>
-                    <input type="email" name="email" id="email" placeholder="email" >
+                <div class="email-cont input-box">
+                    <label for="email">Email address</label>
+                    <input type="email" name="email" id="email">
+                    <span class="additional-info"></span>
                 </div>
-                <div class="phone-cont">
+                <div class="phone-cont input-box">
                     <label for="phone">Phone (recommended)</label>
-                    <input type="text" name="phone" id="phone" placeholder="phone number" >
+                    <input type="text" name="phone" id="phone">
+                    <span class="additional-info">Standard call, messaging or data rates may apply.</span>
                 </div>
-                <div class="pass-cont">
+                <div class="pass-cont input-box">
                     <label for="pass">Password</label>
-                    <input type="password" name="password" id="password" placeholder="password"></input>
+                    <input type="password" name="password" id="password"><i class="fas fa-lock-open"></i> </input>
+                    <span class="additional-info"></span>
                 </div>
-                <input type="button">
+                <button type="submit" class="fas fa-lock"><span> Create Account</span> </button>
                 
             </form>
             <div class="privacy">
