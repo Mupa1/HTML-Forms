@@ -1,7 +1,5 @@
 # HTML-Forms
 
-# Project Name
-
 > Mint sign up clone.
 
 ![screenshot](./images/screenshot.jpg)
