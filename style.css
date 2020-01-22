@@ -68,6 +68,11 @@ a {
   color: #0077c5;
 }
 
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
 /* CSS Reset code end */
 
 button {
@@ -273,3 +278,5 @@ footer li {
   right: 50px;
   border: 0;
 }
+
+/* footer end  */
