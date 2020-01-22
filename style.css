@@ -85,11 +85,14 @@ select {
 
 a {
     text-decoration: none;
+    color: #0077c5;
 }
 
 
 
+
 /* CSS Reset code end  */
+
 
 
 button{
@@ -173,9 +176,9 @@ main {
     height: 23px;
     margin-right: 5px;
 }
-.form {
+.form-box {
     background-color: #fff;
-    padding: 30px;
+    padding: 20px 0 0 0;
     border: 1px solid #c7c7c7;
     border-radius: 2px;
 }   
@@ -184,8 +187,10 @@ main {
 }
 .form-info h2 {
     font-weight: 200;
+    margin: 10px 0;
 }
 .form-info p {
+    margin: 10px 20PX;
     font-size: 14px;
 }
 .input-box {
@@ -205,11 +210,13 @@ main {
 form button {
     width: 100%;
     font-size: 100%;
+    border: 0px;
+
 }
 .pass-cont i {
     position: absolute;
-    left: 630px;
-    top: 496px;
+    right: 348px;
+    top: 516px;
     color: #c7c7c7;
 }
 
@@ -222,7 +229,16 @@ form button {
 
 .captcha-text {
     background-color: #eceef1;
+    color: #8d9096;
+    font-size: 64%;
+    text-align: center;
+    padding: 20px;
 }
+
+.form-padding {
+    padding: 0 30px;
+}
+
 /* form section end */
 
 /* footer  */
@@ -235,6 +251,13 @@ footer {
     font-size: 80%;
 }
 
+footer a {
+    color: #505055;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
 footer ul {
     display: flex;
     margin: auto;
@@ -242,5 +265,13 @@ footer ul {
 }
 footer li {
     margin: 0 5px;
-
+}
+.Privacy-btn {
+    padding: 10px 15px;
+    font-size: 110%;
+    position: fixed;
+    background-color: #505055;
+    bottom: 0px;
+    right: 50px;
+    border: 0;
 }
